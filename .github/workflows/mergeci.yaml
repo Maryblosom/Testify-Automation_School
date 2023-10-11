@@ -1,9 +1,12 @@
 
-name: Merege CI
-on: [ pull-request ]
+name: Mercge CI
+on: [ pull_request ]
 jobs: 
   Test:
-    runs-on: [ ubuntu-latest, windows-latest, macos-latest ]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ macos-latest, ubuntu-latest, windows-latest ]
     steps:
-        - uses: actions/checkout@v2
-        - run: python main.py
+      - uses: actions/checkout@v2
+      - run: python main.py
