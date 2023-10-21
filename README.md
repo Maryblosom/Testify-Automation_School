@@ -8,4 +8,3 @@ For Repository For CICD course
 ## Installation 
 
 How to Install
-1. Install
