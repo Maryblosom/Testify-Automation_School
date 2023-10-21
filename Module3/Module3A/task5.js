@@ -1,6 +1,6 @@
-const day = "Thursday"
+const day = "Tuesday"
 
-const position = 4
+const position = 2
 
 const output = "Today is " + day +". "+"It is the "+ position +"th "+"day of the week."
 
