@@ -1,4 +1,4 @@
-const number = 33
+const number = 23
 
 if (number % 2){
     console.log(number+ ' is odd')
