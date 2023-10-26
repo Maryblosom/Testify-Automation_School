@@ -1,10 +1,39 @@
-for(let number = 1; number <=10; number = number +1){
-    if(number % 2 === 0) {
-        console.log(number +" is an even number")
-    } else {
-        console.log(number +" is an odd number")
-    }
+
+function addNumbers (firstNumber, secondNumber){
+    const sum = firstNumber + secondNumber;
+    console.log(sum)
 }
+addNumbers(7.9,4.9);
+
+
+
+
+
+
+
+
+
+
+// function greeting(name) {
+//     console.log("Good morning, " + name);
+// }
+
+// greeting("Mary");
+
+
+// function Myfunction(){         //function delcaration
+//     console.log("My first function!");
+// }
+
+// Myfunction(); // function call
+
+// for(let number = 1; number <=10; number = number +1){
+//     if(number % 2 === 0) {
+//         console.log(number +" is an even number")
+//     } else {
+//         console.log(number +" is an odd number")
+//     }
+// }
 
 //       //While Loops
    
