@@ -7,5 +7,5 @@ For Repository For CICD course
 
 ## Installation 
 
-How to Install
+How to Install - Steps
  
