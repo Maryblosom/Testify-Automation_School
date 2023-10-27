@@ -1,9 +1,75 @@
+//      // Callback
+// function greetings(greet) {
+//     greet();
+// }
 
-function addNumbers (firstNumber, secondNumber){
-    const sum = firstNumber + secondNumber;
-    console.log(sum)
-}
-addNumbers(7.9,4.9);
+// function callback() {
+//     console.log("Good morning");
+// }
+
+// greetings(callback);
+
+             //OR 
+
+// function greetings(greet) {
+//     greet();
+// }
+
+// greetings(function() {
+//     console.log("Good morning");
+// })
+
+
+//    Function Expression
+// const myGreet = function (name) {
+//     console.log("Good morning," + name);
+// }
+
+// myGreet("Nick");
+
+
+
+
+
+//greet("Nick") //declared fnx
+ //function greet(name){
+//     console.log("Good morning," + name );
+// }
+
+
+
+
+// function greet(name){
+//     console.log("Good morning," + name );
+// }
+
+// greet("Nick")
+
+// function greet(){
+//     const myName = "Ben";
+//     console.log("Good morning, " + myName); 
+//     function innerGreet() {
+//         console.log("Good evening, " + myName);
+//     }
+    
+//     innerGreet();
+// }
+
+ 
+
+
+// const myName = "Ben"
+
+// function greet(){
+//     console.log("Good morning, " + myName); 
+//     function innerGreet() {
+//         console.log("Good evening, " + myName);
+//     }
+    
+//     innerGreet();
+// }
+
+// greet();
 
 
 
@@ -11,6 +77,44 @@ addNumbers(7.9,4.9);
 
 
 
+
+// function addNumbers (firstNumber, secondNumber){
+//     const sum = firstNumber + secondNumber;
+//     const product = firstNumber * secondNumber;
+//     return [sum, product]
+// }
+//  //console.log(addNumbers(4, 5));
+
+//      function converter(dollar){
+//         //convert to dollar and return the equivalent dollar value
+//         //conversion rate: 410 to 1 dollar
+//         const naira = dollar * 418;
+//         return naira
+//      }
+
+//      const nairaValue = converter(100);
+
+//      console.log(nairaValue)
+
+
+
+// function addNumbers (firstNumber, secondNumber){
+//     const sum = firstNumber + secondNumber;
+//     const multiply = firstNumber * secondNumber;
+//     return sum;
+// }
+// const moreop= addNumbers(7.9, 4.9)+ 20;
+
+// console.log(moreop)
+
+
+
+
+// function addNumbers (firstNumber, secondNumber){
+//     const sum = firstNumber + secondNumber;
+//     console.log(sum)
+// }
+// addNumbers(7.9,4.9);
 
 
 
@@ -113,6 +217,6 @@ addNumbers(7.9,4.9);
 
 // if(age>=18) {
 //     console.log('You are eligable to vote')
-// } else{
+// } else {
 //     console.log('You are too young to vote')
 // }
