@@ -1,10 +1,16 @@
 {
-  "name": "testify-automation_school",
+  "name": "test-file",
   "version": "1.0.0",
   "description": "For Repository For CICD course",
   "main": "index.js",
   "scripts": {
-    "test": "node task4.js"  },
-  "author": "",
-  "license": "ISC"
+    "test": "index.js"
+  },
+  "author": "Maryblossom",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "testify-automation_school"
+  },
+  "keywords": []
 }
