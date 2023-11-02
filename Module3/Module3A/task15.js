@@ -1,5 +1,5 @@
 
-const books =  {[
+const books =  [
     {
         title: "Hacks to Testing",
     description: "Guide to Software Testing",
@@ -21,11 +21,16 @@ const books =  {[
     author: "Blossom",
     reading:true
     }
-]
+] 
 
-for(let books = 1; books <= 1; books = books+1){
-    if(books >= 1){
-       console.log(books.reading[true])
+for(let x = 0; x < books.length; x = x+1){
+    if (books[x].reading === true){
+       console.log(books[x].title)
+       console.log(books[x].description)
+       console.log(books[x].numberOfPages)
+       console.log(books[x].author)
+       console.log(books[x].reading)
+       console.log("------")
     }
-}}
+}
 
