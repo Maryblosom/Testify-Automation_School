@@ -1,16 +1,11 @@
 {
-  "name": "test-file",
+  "name": "testify-automation_school",
   "version": "1.0.0",
-  "description": "For Repository For CICD course",
-  "main": "index.js",
+  "description": "ci-cd",
+  "main": "task16.js",
   "scripts": {
-    "test": "index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Maryblossom",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "testify-automation_school"
-  },
-  "keywords": []
+  "author": "Mary",
+  "license": "ISC"
 }
