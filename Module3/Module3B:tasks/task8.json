@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "4230761a-da86-4864-854d-f27f88c671d0",
+		"_postman_id": "2c4bbf4f-f7a1-49a3-8478-cc3acbc8aef3",
 		"name": "API Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "30844348"
@@ -13,9 +13,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is OK\", function () {",
-							"    pm.response.to.have.status(200);",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -25,12 +23,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://simple-books-api.glitch.me/",
-					"protocol": "https",
+					"raw": "{{Gurl}}/",
 					"host": [
-						"simple-books-api",
-						"glitch",
-						"me"
+						"{{Gurl}}"
 					],
 					"path": [
 						""
@@ -46,9 +41,14 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is Created\", function () {",
+							"pm.test(\"Status code is OK\", function () {",
 							"    pm.response.to.have.status(201);",
-							"});"
+							"",
+							"    postman.setNextRequest(\"Get all orders\")",
+							"});",
+							"",
+							"",
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -56,16 +56,10 @@
 			],
 			"request": {
 				"method": "POST",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json",
-						"type": "text"
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n   \"clientName\": \"Postman\",\n   \"clientEmail\": \"maryb@example.com\"\n}",
+					"raw": "{\n   \"clientName\": \"Postman\",\n   \"clientEmail\": \"{{$randomEmail}}\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -73,12 +67,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://simple-books-api.glitch.me/api-clients/",
-					"protocol": "https",
+					"raw": "{{Gurl}}/api-clients/",
 					"host": [
-						"simple-books-api",
-						"glitch",
-						"me"
+						"{{Gurl}}"
 					],
 					"path": [
 						"api-clients",
@@ -98,28 +89,42 @@
 							"pm.test(\"Status code is OK\", function () {",
 							"    pm.response.to.have.status(200);",
 							"});",
-							"",
-							"pm.test(\"Verify the id of a non-fiction book named Untamed\", function () {",
-							"    const responseData = pm.response.json();",
-							"    const book = responseData.find(item => item.name === \"Untamed\" && item.type === \"non-fiction\");",
-							"    pm.expect(book).to.exist;",
-							"    pm.expect(book.id).to.equal(5);",
-							"});"
+							"var jsonData = pm.response.json(0);",
+							"console.log(jsonData[1].id);",
+							"console.log(jsonData[0].name);"
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Transfer-Encoding",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
 				"url": {
-					"raw": "{{url}}/books",
+					"raw": "{{Gurl}}books",
 					"host": [
-						"{{url}}"
-					],
-					"path": [
-						"books"
+						"{{Gurl}}books"
 					]
 				}
 			},
@@ -132,8 +137,15 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is OK\", function () {",
+							"pm.test('Status code is OK', function () {",
 							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Verify the id of a non-fiction book named Untamed\", function () {",
+							"    const responseData = pm.response.json();",
+							"    const book = responseData;",
+							"    pm.expect(book).to.exist;",
+							"    pm.expect(book.id).to.equal(5);\t\t\t\t\t",
 							"});"
 						],
 						"type": "text/javascript"
@@ -144,6 +156,16 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"body": {
@@ -156,9 +178,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/books/:bookId",
+					"raw": "{{Gurl}}/books/:bookId",
 					"host": [
-						"{{url}}"
+						"{{Gurl}}"
 					],
 					"path": [
 						"books",
@@ -174,7 +196,7 @@
 					"variable": [
 						{
 							"key": "bookId",
-							"value": "1"
+							"value": "5"
 						}
 					]
 				}
@@ -188,7 +210,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is Created\", function () {",
+							"pm.test(\"Status code is OK\", function () {",
 							"    pm.response.to.have.status(201);",
 							"});"
 						],
@@ -217,7 +239,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"bookId\": 3,\n  \"customerName\": \"loo\"\n}",
+					"raw": "{\n  \"bookId\": 4,\n  \"customerName\": \"Charles\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -225,12 +247,9 @@
 					}
 				},
 				"url": {
-					"raw": "https://simple-books-api.glitch.me/orders",
-					"protocol": "https",
+					"raw": "{{Gurl}}/orders",
 					"host": [
-						"simple-books-api",
-						"glitch",
-						"me"
+						"{{Gurl}}"
 					],
 					"path": [
 						"orders"
@@ -248,7 +267,11 @@
 						"exec": [
 							"pm.test(\"Status code is OK\", function () {",
 							"    pm.response.to.have.status(200);",
-							"});"
+							"",
+							"    postman.setNextRequest(\"null\")",
+							"});",
+							"",
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -280,9 +303,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/orders",
+					"raw": "{{Gurl}}/orders",
 					"host": [
-						"{{url}}"
+						"{{Gurl}}"
 					],
 					"path": [
 						"orders"
@@ -300,13 +323,6 @@
 						"exec": [
 							"pm.test(\"Status code is OK\", function () {",
 							"    pm.response.to.have.status(200);",
-							"});",
-							"",
-							"pm.test(\"Verify the id of a non-fiction book named 'Untamed'\", function () {",
-							"    const responseData = pm.response.json();",
-							"    const book = responseData.find(item => item.type === \"non-fiction\" && item.name === \"Untamed\");",
-							"    pm.expect(book).to.exist;",
-							"    pm.expect(book.id).to.equal(5);",
 							"});"
 						],
 						"type": "text/javascript"
@@ -339,17 +355,18 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/:orderId3",
+					"raw": "{{Gurl}}/orders/:orderId",
 					"host": [
-						"{{url}}"
+						"{{Gurl}}"
 					],
 					"path": [
-						":orderId3"
+						"orders",
+						":orderId"
 					],
 					"variable": [
 						{
-							"key": "orderId3",
-							"value": "f5ovB4111iwq1f_xAr8AW"
+							"key": "orderId",
+							"value": "2rbNtRK-xuUIGwB_FY-op"
 						}
 					]
 				}
@@ -364,19 +381,13 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "03c5abfe090876ab74a2a2ac4c079174a35fd88c9b88cd2164ff4b9d56c31d6c",
+							"value": "{{token}}",
 							"type": "string"
 						}
 					]
 				},
 				"method": "PATCH",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "",
-						"type": "text"
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "raw",
 					"raw": "",
@@ -387,9 +398,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/orders/:orderId/",
+					"raw": "{{Gurl}}/orders/:orderId/",
 					"host": [
-						"{{url}}"
+						"{{Gurl}}"
 					],
 					"path": [
 						"orders",
@@ -399,7 +410,7 @@
 					"variable": [
 						{
 							"key": "orderId",
-							"value": ""
+							"value": "V_kWFr7hRUMHZ252mlSRM"
 						}
 					]
 				}
@@ -413,7 +424,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is Deleted\", function () {",
+							"pm.test(\"Status code is No Content\", function () {",
 							"    pm.response.to.have.status(204);",
 							"});"
 						],
@@ -444,24 +455,28 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}//orders/:orderId",
+					"raw": "{{Gurl}}/:orderId",
 					"host": [
-						"{{url}}"
+						"{{Gurl}}"
 					],
 					"path": [
-						"",
-						"orders",
 						":orderId"
 					],
 					"variable": [
 						{
 							"key": "orderId",
-							"value": "OuTqSzGUAr03r22P9rbQg"
+							"value": "V_kWFr7hRUMHZ252mlSRM"
 						}
 					]
 				}
 			},
 			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "orderId",
+			"value": ""
 		}
 	]
 }
