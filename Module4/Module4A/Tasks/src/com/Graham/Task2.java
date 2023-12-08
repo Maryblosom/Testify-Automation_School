@@ -9,7 +9,7 @@ public class Task2 {
 
         float length = 2389209.99F;
 
-        boolean True ;
+        boolean status = true;
 
         double fraction = 382374920742029.88;
 
