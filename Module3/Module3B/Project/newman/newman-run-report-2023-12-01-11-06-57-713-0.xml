@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sendinblue" tests="156" time="27.503">
+  <testsuite name="Sales CRM / Companies / Get all Companies" id="7a6125e9-c2aa-4d2b-8205-d7b20bc28e8b" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="1" time="0.654">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading '0')
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Create a company" id="bf7ea05f-6fed-4629-8336-214622ced7db" timestamp="2023-12-01T11:06:27.638Z" tests="3" failures="2" errors="0" time="0.464">
+    <testcase name="Confirm the company ID is a string" time="0.464" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Create a company.]]>
+        <![CDATA[Test description: Confirm the company ID is a string.]]>
+        <![CDATA[Error message: expected undefined to be a string.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a string
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm an ID was returned" time="0.464" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Create a company.]]>
+        <![CDATA[Test description: Confirm an ID was returned.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm a response has a header" time="0.464" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Get company attributes" id="a030c190-1ee8-4e29-a660-72dbd93a26c8" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="1" time="0.475">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'label')
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Link and Unlink company with contact and deal" id="f37bf73f-28cb-43ba-aaaa-24e5cc3a207d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.148"/>
+  <testsuite name="Sales CRM / Companies / Get a company" id="a03438cf-5906-4717-a5b2-3096fd1479e8" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="1" time="0.161">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'name')
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Delete a company" id="c8477128-d30d-46dc-9cce-1fc88582241d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Sales CRM / Companies / Update a company" id="5dc0a7cd-23bd-40bc-bfc8-d0115c0301df" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.163"/>
+  <testsuite name="Sales CRM / Companies / Get pipeline stages" id="06dd0167-00ff-4a0f-abde-eecf47c64aec" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="1" time="0.165">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading '0')
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get all deals" id="2240eb5b-3de2-4758-b23e-ae85fb7adac3" timestamp="2023-12-01T11:06:27.638Z" tests="3" failures="2" errors="0" time="0.182">
+    <testcase name="Confirm the deal ID is a string" time="0.182" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get all deals.]]>
+        <![CDATA[Test description: Confirm the deal ID is a string.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:1:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm an ID was returned" time="0.182" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get all deals.]]>
+        <![CDATA[Test description: Confirm an ID was returned.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:2:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm a response has a header" time="0.182" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Create a deal" id="152d910c-480c-48ad-af58-5c50cb6338ca" timestamp="2023-12-01T11:06:27.638Z" tests="3" failures="2" errors="0" time="0.153">
+    <testcase name="Confirm the company ID is a string" time="0.153" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Create a deal.]]>
+        <![CDATA[Test description: Confirm the company ID is a string.]]>
+        <![CDATA[Error message: expected undefined to be a string.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a string
+   at Object.eval sandbox-script.js:1:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm an ID was returned" time="0.153" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Create a deal.]]>
+        <![CDATA[Test description: Confirm an ID was returned.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:2:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm a response has a header" time="0.153" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Link and Unlink a deal with contacts and companies" id="70c2a078-c904-42a9-ada0-edd023c11f6d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.156"/>
+  <testsuite name="Sales CRM / Deals / Get deal attributes" id="244844f2-da89-4f6b-884a-9d54730ef806" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="1" time="0.196">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'label')
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get a deal" id="bd9f6d1c-e761-43f4-898a-c5803c14bb52" timestamp="2023-12-01T11:06:27.638Z" tests="3" failures="2" errors="0" time="0.168">
+    <testcase name="Verify deal name is Deal: Connect with company" time="0.168" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'deal_name')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get a deal.]]>
+        <![CDATA[Test description: Verify deal name is Deal: Connect with company.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'deal_name').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'deal_name')
+   at Object.eval sandbox-script.js:1:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm the 1st attributeTypeName" time="0.168" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'deal_owner')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get a deal.]]>
+        <![CDATA[Test description: Confirm the 1st attributeTypeName.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'deal_owner').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'deal_owner')
+   at Object.eval sandbox-script.js:2:13).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm a response has a header" time="0.168" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Delete a deal" id="dc2482fc-56d2-4ede-8b39-655fcd3879aa" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Sales CRM / Deals / Update a deal" id="b6152392-89f2-4710-9264-957249e7910c" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.153"/>
+  <testsuite name="Sales CRM / Tasks / Get all tasks" id="9cbf98ea-0a8b-4cbe-b172-b2c86187f7e7" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.161"/>
+  <testsuite name="Sales CRM / Tasks / Create a task" id="df469c3a-cfbf-4069-9f36-48f2a9ef002e" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="1" time="0.147">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading '0')
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Get all task types" id="43fd46f9-9835-4c06-af75-ca0eda038be4" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="1" time="0.172">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'id')
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Get a task" id="2301634b-5a38-401f-8d6b-3de300678e5d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.174"/>
+  <testsuite name="Sales CRM / Tasks / Delete a task" id="2b241bd4-30d5-4a0c-84fc-1af5a7094cb8" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.160"/>
+  <testsuite name="Sales CRM / Tasks / Update a task" id="27f2905e-2140-4458-b603-900f49050004" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.154"/>
+  <testsuite name="Sales CRM / Notes / Get all notes" id="d708bd86-2215-4a5e-acd5-5f7db8ae1843" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Sales CRM / Notes / Create a note" id="683213be-0bb9-4911-856e-d834fc7339de" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Sales CRM / Notes / Get a note" id="cbb1c959-812f-42f6-a672-032e8200ad28" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.161"/>
+  <testsuite name="Sales CRM / Notes / Update a note" id="28470ce5-0422-4d99-9853-15a3161566c5" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.145"/>
+  <testsuite name="Sales CRM / Notes / Delete a note" id="9e1fa0d7-7280-4991-86cf-0f69f1d26096" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.148"/>
+  <testsuite name="Sales CRM / Files / Get all files" id="34610104-f533-46b6-9ee1-a5745723560b" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.183"/>
+  <testsuite name="Sales CRM / Files / Upload a file" id="a8b6dc76-76d8-43a9-91a8-383616bc8fae" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Sales CRM / Files / Download a file" id="dd62f615-f02b-43fb-a3e2-ab8e177c0f22" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.209"/>
+  <testsuite name="Sales CRM / Files / Delete a file" id="d2a6293b-5e0e-40ef-b2ed-9b6b38984ace" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.158"/>
+  <testsuite name="Sales CRM / Files / Get file details" id="fa70675f-2072-4a64-86e2-7de4fc87a1da" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.166"/>
+  <testsuite name="Marketing / Email Campaigns / Get an email campaign report" id="6c647595-1f2f-4daa-8a56-a9faf8737389" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign" id="879f7ef9-f0c6-4da6-9da6-dc93ca89d359" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.151"/>
+  <testsuite name="Marketing / Email Campaigns / Delete an email campaign" id="aa1c13ce-3c57-4f32-9a74-128a0f5c55d4" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.153"/>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign immediately, based on campaignId" id="844d5571-5fd0-4293-913c-3a4289e5127c" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.145"/>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign to your test list" id="0caaa525-cbfb-4e0c-85fd-cce412e51c8e" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.161"/>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign status" id="1acba857-df7e-48bd-9d77-775903b24a94" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.163"/>
+  <testsuite name="Marketing / Email Campaigns / Send the report of a campaign" id="f70ea1ea-81d9-4a93-86f5-a2e9635a7ff4" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.148"/>
+  <testsuite name="Marketing / Email Campaigns / Get an A/B test email campaign results" id="204b76bd-7427-4479-a23a-8395a2d3dbf5" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.169"/>
+  <testsuite name="Marketing / Email Campaigns / Get a shared template url" id="586061ec-174e-4580-ad39-25be616edb1d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.497"/>
+  <testsuite name="Marketing / Email Campaigns / Export the recipients of an email campaign" id="0bc0025b-1c5f-4618-afc0-ac02e3a36bb3" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.163"/>
+  <testsuite name="Marketing / Email Campaigns / Return all your created email campaigns" id="dd7a05de-612f-4ccc-ae62-84acb04a85b1" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.196"/>
+  <testsuite name="Marketing / Email Campaigns / Create an email campaign" id="93b16ed8-3b31-4fbc-8d9e-d0d7a49af388" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.161"/>
+  <testsuite name="Marketing / Email Campaigns / Upload an image to your account's image gallery" id="ee9d52a8-598d-43c1-b4ee-6c7909377006" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.153"/>
+  <testsuite name="Marketing / SMS Campaigns / Returns the information for all your created SMS campaigns" id="30a69e41-05af-47de-8862-0e36b0c165b1" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.170"/>
+  <testsuite name="Marketing / SMS Campaigns / Creates an SMS campaign" id="e68d160b-3aa4-44f2-99c8-831978e4328e" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Marketing / SMS Campaigns / Get an SMS campaign" id="44bf0b06-57be-413e-814e-a0c9e8aa7d5c" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.155"/>
+  <testsuite name="Marketing / SMS Campaigns / Update an SMS campaign" id="b50dec56-bb1f-405f-ac9a-fbaba07f96c8" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.149"/>
+  <testsuite name="Marketing / SMS Campaigns / Delete an SMS campaign" id="f252dfc9-2c5e-45b5-97ad-f7b526b2df9f" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.164"/>
+  <testsuite name="Marketing / SMS Campaigns / Send your SMS campaign immediately" id="419253ef-322e-42ab-b777-1351ceb662e2" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Marketing / SMS Campaigns / Update a campaign's status" id="005f4166-29b0-44f9-9079-42b0a840cfc0" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.149"/>
+  <testsuite name="Marketing / SMS Campaigns / Send a test SMS campaign" id="4f941a9b-862f-44d2-bf5b-7b3f2b3ba259" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.154"/>
+  <testsuite name="Marketing / SMS Campaigns / Export an SMS campaign's recipients" id="b950499a-2ada-463f-9059-e610807191de" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.156"/>
+  <testsuite name="Marketing / SMS Campaigns / Send an SMS campaign's report" id="d5de338d-ca5a-4854-8fb5-f402790e6203" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.152"/>
+  <testsuite name="Conversations / Messages / Send a message as an agent" id="aea20ce6-9604-4c9a-9cf7-87ab71edf655" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.148"/>
+  <testsuite name="Conversations / Messages / Get a message" id="b8181952-5d93-4649-a859-d6a1357fdbbb" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.161"/>
+  <testsuite name="Conversations / Messages / Update a message sent by an agent" id="0edebde4-00b9-49b0-b68e-1d91414d9d11" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.142"/>
+  <testsuite name="Conversations / Messages / Delete a message sent by an agent" id="cafff76b-dd9f-424f-9789-e66081d7d9df" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.145"/>
+  <testsuite name="Conversations / Status / Sets agent’s status to online for 2-3 minutes" id="075d8777-b186-4d60-bd99-95c72122bc5c" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.143"/>
+  <testsuite name="Conversations / Pushed messages / Send an automated message to a visitor" id="be67745c-f6d4-40c5-84b5-2fb1d0e268b2" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.149"/>
+  <testsuite name="Conversations / Pushed messages / Get an automated message" id="68f9e54d-3000-4fb0-a0cf-7a96f525f89e" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.152"/>
+  <testsuite name="Conversations / Pushed messages / Update an automated message" id="275ea022-4bf9-4d58-bfbb-368825e8ce3c" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.143"/>
+  <testsuite name="Conversations / Pushed messages / Delete an automated message" id="64090c1e-68b2-4a7f-a304-43c8ea92762d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.142"/>
+  <testsuite name="Contact management / Contacts / Get all the contacts" id="993255a2-c297-4fcd-afba-096ff91b2b56" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="1" time="0.171">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading '0')
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Create a contact" id="d9f73b8b-e278-459e-945a-1827801dad3e" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.166"/>
+  <testsuite name="Contact management / Contacts / Create Contact via DOI (Double-Opt-In) Flow" id="a555c2e4-cbbc-4d62-8b16-d39f5dddd299" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.177"/>
+  <testsuite name="Contact management / Contacts / Update multiple contacts" id="e6b04915-3c49-40d0-a24e-6c296c5d447f" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.239"/>
+  <testsuite name="Contact management / Contacts / Export contacts" id="fedac5f1-ad72-497f-845d-98a98367e653" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.153"/>
+  <testsuite name="Contact management / Contacts / Import contacts" id="c66cd983-40f6-4562-b16e-5a09f91a28f1" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.168"/>
+  <testsuite name="Contact management / Contacts / Get a contact's details" id="9781d637-b2f9-4df9-a6f1-5c68197ab1d1" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.405"/>
+  <testsuite name="Contact management / Contacts / Delete a contact" id="123c7576-8c7c-4d5a-82e0-dde85560dbc3" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.152"/>
+  <testsuite name="Contact management / Contacts / Update a contact" id="86cf6ea1-1140-48f9-9eb4-221fd3e59e16" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Contact management / Contacts / Get email campaigns' statistics for a contact" id="48daff9f-f12d-4ec1-ad04-c9da5b414c81" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.169"/>
+  <testsuite name="Contact management / Folders / Get all folders" id="e3bf80ae-b07e-4e9e-af2f-6bc722c9c023" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.205"/>
+  <testsuite name="Contact management / Folders / Create a folder" id="a4a3cf00-feef-4f53-afca-fe770a382aab" timestamp="2023-12-01T11:06:27.638Z" tests="3" failures="2" errors="0" time="0.148">
+    <testcase name="Confirm the company ID is number" time="0.148" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be a number">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Create a folder.]]>
+        <![CDATA[Test description: Confirm the company ID is number.]]>
+        <![CDATA[Error message: expected undefined to be a number.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number
+   at Object.eval sandbox-script.js:1:75).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm an ID was returned" time="0.148" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Create a folder.]]>
+        <![CDATA[Test description: Confirm an ID was returned.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:2:75).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm a response has a header" time="0.148" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Returns a folder's details" id="0eee1381-1f7e-42db-9320-91bcdd94e699" timestamp="2023-12-01T11:06:27.638Z" tests="3" failures="2" errors="0" time="0.176">
+    <testcase name="Confirm the lD" time="0.176" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to equal 1">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Returns a folder's details.]]>
+        <![CDATA[Test description: Confirm the lD.]]>
+        <![CDATA[Error message: expected undefined to equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 1
+   at Object.eval sandbox-script.js:1:76).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm the Name" time="0.176" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to equal 'Your first folder'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Returns a folder's details.]]>
+        <![CDATA[Test description: Confirm the Name.]]>
+        <![CDATA[Error message: expected undefined to equal 'Your first folder'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 'Your first folder'
+   at Object.eval sandbox-script.js:2:76).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm a response has a header" time="0.176" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Update a folder" id="02073eea-4510-499b-bfab-2b06d3191c1c" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.514"/>
+  <testsuite name="Contact management / Folders / Delete a folder (and all its lists)" id="344ae4bb-c730-4e28-84cb-53c0a3242596" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.144"/>
+  <testsuite name="Contact management / Folders / Get lists in a folder" id="801c5559-533c-4c66-a016-90733210cb32" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="1" time="0.163">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading '0')
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Get all the lists" id="8d39a98a-ad03-49cf-a9b9-78cc57b7a05d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.168"/>
+  <testsuite name="Contact management / Lists / Create a list" id="085ca5dc-d5ba-4d76-bc8c-f49f94caae88" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.153"/>
+  <testsuite name="Contact management / Lists / Get contacts in a list" id="2f0a301a-0c8b-47a7-b092-8314aec67fb4" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.172"/>
+  <testsuite name="Contact management / Lists / Add existing contacts to a list" id="dba3031c-9e70-4b8b-a604-508365ba76a7" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.150"/>
+  <testsuite name="Contact management / Lists / Delete a contact from a list" id="3a749c4e-aa9f-4278-a12e-9982a6669816" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.371"/>
+  <testsuite name="Contact management / Lists / Get a list's details" id="8e3d1a8c-4191-4779-a232-2db8222e3105" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Contact management / Lists / Update a list" id="bae8c6ce-6949-447b-894a-8402110c0ffb" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.153"/>
+  <testsuite name="Contact management / Lists / Delete a list" id="e50d72c0-fd0d-4769-ba25-47dafa7a9608" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.152"/>
+  <testsuite name="Contact management / Attributes / List all attributes" id="7ada14fc-0fac-496e-89f9-ac64a65a1ffd" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.168"/>
+  <testsuite name="Contact management / Attributes / Update contact attribute" id="51781909-7782-4d51-89cf-42d5b57a94b8" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.168"/>
+  <testsuite name="Contact management / Attributes / Create contact attribute" id="38b10354-8329-48dd-a4f5-ea50503428c0" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.146"/>
+  <testsuite name="Contact management / Attributes / Delete an attribute" id="eaaf6f5e-136c-4525-8b60-024e9215221a" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.147"/>
+  <testsuite name="Transactional / Email API / Send a transactional email" id="b5c86393-09df-48d7-9a4e-e216a2685821" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.160"/>
+  <testsuite name="Transactional / Email API / Get the list of transactional emails on the basis of allowed filters" id="b08f6d1c-2aab-4ce4-a56a-f3375bf180d3" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Transactional / Email API / Delete scheduled emails by batchId or messageId" id="bac0f007-ff2b-451f-88a1-87f5d47f135c" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Transactional / Email API / Get the personalized content of a sent transactional email" id="350ddddf-ff58-4c7c-9d59-33c1edcb1d42" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.239"/>
+  <testsuite name="Transactional / Email API / Fetch scheduled emails by batchId or messageId" id="35171e19-c270-4791-8722-40276be2f514" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.166"/>
+  <testsuite name="Transactional / Templates / Get the list of email templates" id="24bb382e-e5d6-4253-8306-bf9cfed8a698" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.170"/>
+  <testsuite name="Transactional / Templates / Create an email template" id="ea2636fb-8cec-445d-a7df-469c34ec832b" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.156"/>
+  <testsuite name="Transactional / Templates / Returns the template information" id="ddfd6d8b-2f1f-4e44-bb32-b84f719a3b3a" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.170"/>
+  <testsuite name="Transactional / Templates / Update an email template" id="749c3f58-7bc3-4033-9a74-7ee2245219fe" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.143"/>
+  <testsuite name="Transactional / Templates / Delete an inactive email template" id="96c4f7b1-fe54-49c0-8772-8d2f5c3ae77a" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.139"/>
+  <testsuite name="Transactional / Templates / Send a template to your test list" id="51970a8e-8ed7-4f19-9347-96a100420bfd" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.150"/>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated over a period of time" id="859afad4-e3f4-46a6-a1fe-9c9532d5d293" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.174"/>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated per day" id="0e414d59-b2ea-4234-aaa2-ee6b158af447" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.152"/>
+  <testsuite name="Transactional / Statistics / Get all your transactional email activity (unaggregated events)" id="3eec8bdc-75f1-4d7d-8dde-ea5e53b693ba" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Transactional / Blocked Contacts / Get the list of blocked or unsubscribed transactional contacts" id="98d2e2e9-e972-4fe3-9ce6-b1cea3a41b83" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.167"/>
+  <testsuite name="Transactional / Blocked Contacts / Unblock or resubscribe a transactional contact" id="e9c100ed-8784-4d46-8ad8-c71fba97a2c9" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.137"/>
+  <testsuite name="Transactional / Blocked Domains / Get the list of blocked domains" id="e4b4789e-b6ad-4976-902e-3d64c7b52791" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.163"/>
+  <testsuite name="Transactional / Blocked Domains / Add a new domain to the list of blocked domains" id="3e4e459d-d966-45e0-809f-79487f5173a1" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.145"/>
+  <testsuite name="Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains" id="f456cbb7-b03a-41a5-961b-651489c2c824" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.144"/>
+  <testsuite name="Transactional / Logs / Delete hardbounces" id="9beaa2b0-d4b4-4fd1-bbb8-74aa0022bba4" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.178"/>
+  <testsuite name="Transactional / Logs / Delete an SMTP transactional log" id="3eb5a15d-5cbd-47ff-bc70-5bc2cddc662e" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.148"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Get the list of all the events for the received emails." id="5681b361-7e39-48c3-b5a8-81445fa81d20" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.162"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Fetch all events history for one particular received email." id="4b80b7d2-a6cb-478b-8c9c-ef5e60ca1ee3" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.182"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Retrieve inbound attachment with download token." id="697f3713-e548-4f34-ac27-623f1de8b3fb" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.179"/>
+  <testsuite name="Transactional / Transactional SMS / Send SMS message to a mobile number" id="0cab6667-5243-4da9-8948-cb8789ce575a" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.162"/>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated over a period of time" id="d765987b-5edf-4083-9684-fe4cb76428d4" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.174"/>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated per day" id="ade7980a-8fa8-479d-a722-bd89990de87d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.156"/>
+  <testsuite name="Transactional / SMS statistics / Get all your SMS activity (unaggregated events)" id="bf40e85c-d390-4a7e-a955-8eadced5a5a2" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.176"/>
+  <testsuite name="Account / Webhooks / Get all webhooks" id="1967f80d-4765-4a51-b8eb-0472dd5c5e1d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Account / Webhooks / Create a webhook" id="2e24c585-5efb-4f9b-aae5-2a76848fb0c6" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.149"/>
+  <testsuite name="Account / Webhooks / Get a webhook details" id="c4919902-f9a9-46ed-a98c-f8f2719cd23d" timestamp="2023-12-01T11:06:27.638Z" tests="3" failures="2" errors="0" time="0.161">
+    <testcase name="Verify the urk" time="0.161" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to equal 'https://webhook.site/5ebc5d36-217f-49…'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Account / Webhooks / Get a webhook details.]]>
+        <![CDATA[Test description: Verify the urk.]]>
+        <![CDATA[Error message: expected undefined to equal 'https://webhook.site/5ebc5d36-217f-49…'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 'https://webhook.site/5ebc5d36-217f-49…'
+   at Object.eval sandbox-script.js:1:122).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm the ID" time="0.161" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to equal 932196">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 2a8b943a-739c-4316-a9cf-5ff1aa8c0537.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Account / Webhooks / Get a webhook details.]]>
+        <![CDATA[Test description: Confirm the ID.]]>
+        <![CDATA[Error message: expected undefined to equal 932196.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 932196
+   at Object.eval sandbox-script.js:2:122).]]>
+      </failure>
+    </testcase>
+    <testcase name="Confirm a response has a header" time="0.161" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Account / Webhooks / Update a webhook" id="5fb7787e-2401-4814-b95e-c247f984dfd6" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.144"/>
+  <testsuite name="Account / Webhooks / Delete a webhook" id="4b9054a7-3304-4ce3-aae6-953148e7bc71" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.152"/>
+  <testsuite name="Account / Reseller / Credits / Add Email and/or SMS credits to a specific child account" id="e5cfd472-9dbf-47d7-9b3d-7241212ec099" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.152"/>
+  <testsuite name="Account / Reseller / Credits / Remove Email and/or SMS credits from a specific child account" id="18a7e858-3a6a-465c-921d-8639f64a365e" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.151"/>
+  <testsuite name="Account / Reseller / IP management / Associate a dedicated IP to the child" id="1ff502bf-f5f4-4d66-8798-50c976e2c915" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.146"/>
+  <testsuite name="Account / Reseller / IP management / Dissociate a dedicated IP to the child" id="cdb4fc9a-7f94-4fec-9153-4763fec46434" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.156"/>
+  <testsuite name="Account / Reseller / Domains / Get all sender domains for a specific child account" id="e82418b9-55fe-414c-adde-100d38d11dcb" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.167"/>
+  <testsuite name="Account / Reseller / Domains / Create a domain for a child account" id="3b418b81-e9a1-454b-a216-0266eedb3783" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.144"/>
+  <testsuite name="Account / Reseller / Domains / Update the sender domain of reseller's child based on the childIdentifier and domainName passed" id="27674779-f656-4ca1-a784-5bf9856a86ec" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.156"/>
+  <testsuite name="Account / Reseller / Domains / Delete the sender domain of the reseller child based on the childIdentifier and domainName passed" id="a5c157c5-eb54-4482-b352-39d67cc1e0a9" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.155"/>
+  <testsuite name="Account / Reseller / Child accounts / Get a child account's details" id="bc7bda1d-a0b0-4953-bf4d-2f927afbaa41" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.167"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child based on the child identifier supplied" id="72282530-d330-4717-b538-b7534e79f2e2" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.162"/>
+  <testsuite name="Account / Reseller / Child accounts / Delete a single reseller child based on the child identifier supplied" id="10624dcd-c544-4cc0-9d5b-add8f7214ba7" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.147"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child account status based on the identifier supplied" id="d8269030-dec8-49a1-97c3-7452d117df90" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.191"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the status of a reseller's child account creation, whether it is successfully created (exists) or not based on the childIdentifier supplied" id="9560a4e9-08a2-4890-b511-5eccf0774647" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.207"/>
+  <testsuite name="Account / Reseller / Child accounts / Get session token to access Sendinblue (SSO)" id="61fa7d31-09c6-4557-909a-d37a71a0c4bd" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.188"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the list of all children accounts" id="87c4dc2b-5631-4268-8752-adba6cccf7d0" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.181"/>
+  <testsuite name="Account / Reseller / Child accounts / Creates a reseller child" id="58f4166d-b3ff-481a-b52f-b369632e7e90" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Account / Process / Return all the processes for your account" id="68fd9b8e-92f0-4a60-abd2-be64291f959b" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Account / Process / Return the informations for a process" id="764d5cfb-4230-4f3f-808b-b8c966c46150" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.167"/>
+  <testsuite name="Account / Corporate / Get the details of requested master account" id="3b176c53-4411-489e-9efc-5a12126d7229" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.172"/>
+  <testsuite name="Account / Corporate / Get the list of all the sub-accounts of the master account." id="b52d893e-7af7-4c38-ab2c-201ee310ec16" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.160"/>
+  <testsuite name="Account / Corporate / Create a new sub-account under a master account." id="246cd1e7-edcb-4370-9deb-a554c5ec605a" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.150"/>
+  <testsuite name="Account / Corporate / Generate SSO token to access Sendinblue" id="1c522e8a-581d-4f05-8d4a-7975c04f8804" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Account / Corporate / Get sub-account details" id="587be3ff-ddec-4170-8366-3a19bb8863ea" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.175"/>
+  <testsuite name="Account / Corporate / Delete a sub-account" id="89c0523d-1d8e-47ca-86e0-633bf031ef75" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.153"/>
+  <testsuite name="Account / Corporate / Update sub-account plan" id="9133471e-9778-44e8-899e-bc483b264065" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.161"/>
+  <testsuite name="Account / Account data / Get your account information, plan and credits details" id="03b0f3fb-cb18-451e-82c8-f1c39c39507d" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.162"/>
+  <testsuite name="Account / Senders / Get the list of all your senders" id="d2c7b994-4060-4973-86a2-54fd37af7790" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.172"/>
+  <testsuite name="Account / Senders / Create a new sender" id="cdff49aa-4cce-4c2a-b5c6-4365aec4ac04" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.162"/>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for your account" id="aea6fdae-6093-423d-809f-ed9849afad4c" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.163"/>
+  <testsuite name="Account / Senders / Update a sender" id="373911e3-b9b3-4e73-b574-aa9f44b0d4aa" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.181"/>
+  <testsuite name="Account / Senders / Delete a sender" id="99e4dfe2-aa86-455b-bab1-7fa4bf73f414" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.155"/>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for a sender" id="9e08addb-972b-4d3a-acb6-06ae9f8d1d3a" timestamp="2023-12-01T11:06:27.638Z" tests="0" failures="0" errors="0" time="0.182"/>
+</testsuites>
