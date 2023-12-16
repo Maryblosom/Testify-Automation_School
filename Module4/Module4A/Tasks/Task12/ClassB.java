@@ -2,12 +2,12 @@ package com.Graham.Task12;
 
 public class ClassB {
     public static void main(String[] args) {
-        AccessClassA access = new AccessClassA();
-        access.accessAMethod();
+        AccessClassB access = new AccessClassB();
+        access.accessBMethod();
 
     }
 
-    protected void accessAMethod(){
+    protected void accessBMethod(){
         System.out.println("This is class B");
     }
 }
