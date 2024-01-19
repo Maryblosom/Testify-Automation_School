@@ -1,16 +1,22 @@
-package com.Graham;
+package com.Mary;
 
 public class Task6 {
     public static void main(String[] args) {
 
         String word = "DEMOCRACY";
 
-        StringBuilder wordReverse = new StringBuilder();
+        StringBuilder reverseString  = new StringBuilder(word);
 
-        wordReverse.append(word);
+        reverseString.reverse();
 
-        wordReverse.reverse();
+       String result = reverseString.toString();
 
-        System.out.println(wordReverse.substring(4,8));
+       System.out.println(result.substring(4,8));
+
+
+
+
+
+
     }
 }

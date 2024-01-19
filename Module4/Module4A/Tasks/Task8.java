@@ -1,24 +1,20 @@
-package com.Graham;
+package com.Mary;
 
 import java.util.Scanner;
 
 public class Task8 {
     public static void main(String[] args) {
-
         Scanner userInput = new Scanner(System.in);
-        System.out.println("Welcome!Pls enter the principal you will like to obtain:");
+        System.out.println("Hello enter your number of years of service in the company:");
 
-        short principal = userInput.nextShort();
+        short time = userInput.nextShort();
 
-        float interestRate = 0.004F;
+        int principal = 300;
+        double rate = 0.04;
 
-        byte interestTerm = 8;
+        int simpleInterest =  (int) (principal * rate * time);
 
-        float simpleInterest = interestTerm * interestRate * principal;
-
-        System.out.println("The Simple interest is " + simpleInterest);
-
-
+        System.out.println("Interest gained in the past " + time +"years spent in the company is $"+ simpleInterest);
 
     }
 }

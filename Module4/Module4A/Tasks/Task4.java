@@ -1,20 +1,17 @@
-package com.Graham;
+package com.Mary;
 
 public class Task4 {
     public static void main(String[] args) {
 
-        float radiusA = 12.7F;
+        double radius = 12.7;
+        double radiusSquare = 12.7 * 12.7;
+        double pie = 3.14159;
 
-        float radiusB = 12.7F;
+        // Area of a Circle = πr2
+        double areaOFCircle = pie * radiusSquare;
+        char meters = 'm';
 
-        float radiusSquare = radiusA * radiusB;
+        System.out.println("Area = " + areaOFCircle + meters);
 
-        float diameter = 22.7F;
-
-
-
-
-
-        System.out.println("Area of this circle " + diameter * radiusSquare + "meters");
     }
 }

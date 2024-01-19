@@ -1,19 +1,44 @@
-package com.Graham;
-public class Task9a{
+package com.Mary;
+public class Task9a {
     public static void main(String[] args) {
+        for (int num = 1; num <= 10; num++) {
 
-            for (int i=1; i<=10; i++){
-                if (i % 2 ==0){
-                    System.out.println(i + " an even number");
-                }
-                else if(i % 2 == 0){
-                    System.out.println(i + " an odd number.");
-                }
-                else {
-                    System.out.println("Null");
-                }
-
+            if (num % 2 == 0) {
+                System.out.println(num + " is an even number");
+            } else if (num % 2 != 0) {
+                System.out.println(num + " is an odd number");
+            }else{
+                System.out.println("Null");
             }
         }
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
