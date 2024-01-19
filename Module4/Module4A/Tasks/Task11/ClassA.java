@@ -1,4 +1,4 @@
-package com.Graham.Task11;
+package com.Mary.Task11;
 
 public class ClassA {
 

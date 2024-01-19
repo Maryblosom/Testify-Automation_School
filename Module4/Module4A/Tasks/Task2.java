@@ -1,4 +1,4 @@
-package com.Graham;
+package com.Mary;
 
 public class Task2 {
     public static void main(String[] args) {
@@ -15,13 +15,16 @@ public class Task2 {
 
         long numberOFKids = 9_223_372_036_845_775_808L;
 
+        char score = 'A';
+
 
       System.out.println(number);
         System.out.println(cash);
         System.out.println(length);
-        System.out.println(true);
+        System.out.println(status);
         System.out.println(fraction);
         System.out.println(numberOFKids);
+        System.out.println(score);
 
     }
 }

@@ -1,4 +1,4 @@
-package com.Graham;
+package com.Mary;
 
 public class Task1 {
     public static void main(String[] args) {
