@@ -2,13 +2,11 @@ package com.Mary.Task12;
 
 public class ClassB {
     public static void main(String[] args) {
-        //AccessClassB access = new AccessClassB();
-        //access.accessBMethod();
-
+        ClassB myVariable = new ClassB();
+        myVariable.umbrella();
     }
-
-    protected void accessBMethod(){
-        System.out.println("This is class B");
+    private void umbrella(){
+        System.out.println("This is a private method");
     }
 }
 
